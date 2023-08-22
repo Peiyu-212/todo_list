@@ -1,0 +1,39 @@
+body {
+  background-color: #12a086;
+  background-image: -webkit-linear-gradient(65deg, #a1bbbc 50%, #7fa468 50%);
+  min-height: 1000px;
+  font-family: "helvetica neue";
+}
+
+.today-date {
+  background-color: #e5a867;
+  text-align: center;
+  border-radius: 5px;
+  padding-inline: 10px;
+}
+
+.date-choose {
+  width: 10%;
+  border: none;
+  padding-inline: 5px;
+  margin-inline: auto;
+  resize: none;
+  cursor: pointer;
+  color: #9fa3b1;
+  text-align: center;
+}
+
+
+
+.box {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px
+}
+
+.strike:checked + .strikeList{
+  text-decoration: line-through;
+  text-decoration-color: #e98630;
+}
